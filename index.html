@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Desafio do Módulo 1</title>
+  </head>
+  <body>
+    <h1>Pesquisa de Usuários</h1>
+
+    <div class="container">
+      <div class="search">
+        <input type="text" id="userText" placeholder="Busca" />
+        <button
+          type="button"
+          class="waves-effect waves-light btn"
+          id="userButton"
+          disabled
+        >
+          BUSCAR
+        </button>
+      </div>
+
+      <div class="results">
+        <div id="tabUsersResults" class="usersResults"></div>
+
+        <div id="tabStatistics" class="statistics"></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
